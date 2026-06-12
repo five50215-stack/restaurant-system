@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers 靜態資產設定 — 把整個資料夾當成靜態網站部署
+  "name": "restaurant-system",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "."
+  }
+}

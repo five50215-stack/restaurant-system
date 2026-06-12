@@ -1,0 +1,8 @@
+# 這些是開發/部署用檔案,不需當成網站內容對外提供
+wrangler.jsonc
+.assetsignore
+server.py
+*.bat
+README.md
+.gitignore
+CNAME
