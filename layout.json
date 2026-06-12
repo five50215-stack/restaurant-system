@@ -1,0 +1,7935 @@
+{
+ "forms": {
+  "井字遊戲__Form1": {
+   "type": "VB.Form",
+   "name": "Form1",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 328,
+     "Top": 656,
+     "Width": 145,
+     "Height": 65,
+     "Caption": "回主選單",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "ShockwaveFlashObjectsCtl.ShockwaveFlash",
+     "name": "ShockwaveFlash1",
+     "children": [],
+     "menus": [],
+     "Left": 320,
+     "Top": 16,
+     "Width": 129,
+     "Height": 73
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer3",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 592,
+     "Enabled": false,
+     "Interval": 1000.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer2",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 592,
+     "Enabled": false,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 592,
+     "Enabled": false,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command4",
+     "children": [],
+     "menus": [],
+     "Left": 144,
+     "Top": 656,
+     "Width": 137,
+     "Height": 65,
+     "Caption": "再玩一次",
+     "BackColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true,
+      "italic": true
+     }
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line12",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 64,
+     "Y1": 568,
+     "X2": 536,
+     "Y2": 152,
+     "BorderWidth": 5.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line11",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 72,
+     "Y1": 168,
+     "X2": 544,
+     "Y2": 560,
+     "BorderWidth": 5.0,
+     "BorderColor": "#404040"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line10",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 464,
+     "Y1": 152,
+     "X2": 464,
+     "Y2": 560,
+     "BorderWidth": 5.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line9",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 304,
+     "Y1": 152,
+     "X2": 304,
+     "Y2": 568,
+     "BorderWidth": 5.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line8",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 144,
+     "Y1": 152,
+     "X2": 144,
+     "Y2": 568,
+     "BorderWidth": 5.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line7",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 64,
+     "Y1": 496,
+     "X2": 544,
+     "Y2": 496,
+     "BorderWidth": 5.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line6",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 64,
+     "Y1": 360,
+     "X2": 544,
+     "Y2": 360,
+     "BorderWidth": 5.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line5",
+     "children": [],
+     "menus": [],
+     "Visible": false,
+     "X1": 72,
+     "Y1": 216,
+     "X2": 544,
+     "Y2": 216,
+     "BorderWidth": 5.0,
+     "BorderColor": "#404040"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label13",
+     "children": [],
+     "menus": [],
+     "Left": 248,
+     "Top": 440,
+     "Width": 121,
+     "Height": 105,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label14",
+     "children": [],
+     "menus": [],
+     "Left": 408,
+     "Top": 448,
+     "Width": 113,
+     "Height": 97,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label12",
+     "children": [],
+     "menus": [],
+     "Left": 88,
+     "Top": 448,
+     "Width": 105,
+     "Height": 97,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label11",
+     "children": [],
+     "menus": [],
+     "Left": 408,
+     "Top": 304,
+     "Width": 113,
+     "Height": 97,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label10",
+     "children": [],
+     "menus": [],
+     "Left": 248,
+     "Top": 304,
+     "Width": 113,
+     "Height": 97,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 304,
+     "Width": 105,
+     "Height": 97,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label8",
+     "children": [],
+     "menus": [],
+     "Left": 408,
+     "Top": 160,
+     "Width": 113,
+     "Height": 89,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 248,
+     "Top": 168,
+     "Width": 113,
+     "Height": 89,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 168,
+     "Width": 105,
+     "Height": 89,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 72.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 304,
+     "Top": 96,
+     "Width": 193,
+     "Height": 49,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "標楷體",
+      "size": 27.75
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 192,
+     "Top": 88,
+     "Width": 97,
+     "Height": 49,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "標楷體",
+      "size": 26.25
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 192,
+     "Top": 24,
+     "Width": 97,
+     "Height": 57,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "標楷體",
+      "size": 26.25
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 88,
+     "Width": 113,
+     "Height": 33,
+     "Caption": "電腦贏了：",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 88,
+     "Top": 32,
+     "Width": 97,
+     "Height": 33,
+     "Caption": "你贏了：",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25
+     }
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line4",
+     "children": [],
+     "menus": [],
+     "X1": 384,
+     "Y1": 160,
+     "X2": 384,
+     "Y2": 568,
+     "BorderWidth": 3.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line3",
+     "children": [],
+     "menus": [],
+     "X1": 216,
+     "Y1": 160,
+     "X2": 216,
+     "Y2": 568,
+     "BorderWidth": 3.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line2",
+     "children": [],
+     "menus": [],
+     "X1": 64,
+     "Y1": 424,
+     "X2": 544,
+     "Y2": 424,
+     "BorderWidth": 3.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Line",
+     "name": "Line1",
+     "children": [],
+     "menus": [],
+     "X1": 64,
+     "Y1": 280,
+     "X2": 544,
+     "Y2": 280,
+     "BorderWidth": 3.0,
+     "BorderColor": "#000000"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Width": 625,
+     "Height": 857,
+     "Stretch": true,
+     "Picture": "assets/img/frx/井字遊戲__Form1__Form1_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "aa",
+     "caption": "主畫面",
+     "children": [
+      {
+       "name": "xx",
+       "caption": "消費者",
+       "children": []
+      },
+      {
+       "name": "dd",
+       "caption": "管理者",
+       "children": []
+      },
+      {
+       "name": "hh",
+       "caption": "廚師",
+       "children": []
+      }
+     ]
+    }
+   ],
+   "ClientWidth": 634,
+   "ClientHeight": 823,
+   "ClientLeft": 319,
+   "ClientTop": 86,
+   "Caption": "小遊戲",
+   "BackColor": "#ffffff",
+   "ForeColor": "#0000ff",
+   "isForm": true,
+   "vb_name": "Form1",
+   "slug": "井字遊戲__Form1"
+  },
+  "井字遊戲__Form2": {
+   "type": "VB.Form",
+   "name": "Form2",
+   "children": [
+    {
+     "type": "ShockwaveFlashObjectsCtl.ShockwaveFlash",
+     "name": "ShockwaveFlash1",
+     "children": [],
+     "menus": [],
+     "Left": 40,
+     "Top": 56,
+     "Width": 585,
+     "Height": 441
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 8,
+     "Width": 145,
+     "Height": 33,
+     "Caption": "加油!!",
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 21.75
+     }
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 671,
+   "ClientHeight": 559,
+   "ClientLeft": 296,
+   "ClientTop": 231,
+   "Caption": "你嫩了~~~",
+   "BackColor": "#ffffff",
+   "isForm": true,
+   "vb_name": "Form2",
+   "slug": "井字遊戲__Form2"
+  },
+  "井字遊戲__Form3": {
+   "type": "VB.Form",
+   "name": "Form3",
+   "children": [
+    {
+     "type": "ShockwaveFlashObjectsCtl.ShockwaveFlash",
+     "name": "ShockwaveFlash1",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 56,
+     "Width": 609,
+     "Height": 473
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 0,
+     "Width": 137,
+     "Height": 41,
+     "Caption": "恭喜!!",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25,
+      "bold": true
+     }
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 664,
+   "ClientHeight": 556,
+   "ClientLeft": 296,
+   "ClientTop": 231,
+   "Caption": "厲害唷~~~",
+   "BackColor": "#ffffff",
+   "isForm": true,
+   "vb_name": "Form3",
+   "slug": "井字遊戲__Form3"
+  },
+  "新增菜單__新增菜單__Form1": {
+   "type": "VB.Form",
+   "name": "新增菜單",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 616,
+     "Width": 145,
+     "Height": 41,
+     "Caption": "上一頁",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.FileListBox",
+     "name": "File1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 392,
+     "Width": 153,
+     "Height": 90,
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75
+     }
+    },
+    {
+     "type": "VB.DirListBox",
+     "name": "Dir1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 264,
+     "Width": 153,
+     "Height": 96,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.DriveListBox",
+     "name": "Drive1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 200,
+     "Width": 153,
+     "Height": 29,
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text9",
+     "children": [],
+     "menus": [],
+     "Left": 368,
+     "Top": 464,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 568,
+     "Width": 145,
+     "Height": 41,
+     "Caption": "確定新增",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text8",
+     "children": [],
+     "menus": [],
+     "Left": 696,
+     "Top": 400,
+     "Width": 161,
+     "Height": 33,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text7",
+     "children": [],
+     "menus": [],
+     "Left": 368,
+     "Top": 400,
+     "Width": 161,
+     "Height": 33,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text6",
+     "children": [],
+     "menus": [],
+     "Left": 696,
+     "Top": 344,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text5",
+     "children": [],
+     "menus": [],
+     "Left": 368,
+     "Top": 336,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text4",
+     "children": [],
+     "menus": [],
+     "Left": 696,
+     "Top": 280,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text3",
+     "children": [],
+     "menus": [],
+     "Left": 368,
+     "Top": 272,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 696,
+     "Top": 208,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 368,
+     "Top": 208,
+     "Width": 161,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data1",
+     "children": [],
+     "menus": [],
+     "Left": 344,
+     "Top": 0,
+     "Width": 353,
+     "Height": 25,
+     "Caption": "Data1",
+     "Visible": false
+    },
+    {
+     "type": "MSDataGridLib.DataGrid",
+     "name": "DataGrid1",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 35,
+     "Width": 705,
+     "Height": 121,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc1",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 0,
+     "Width": 320,
+     "Height": 22,
+     "Caption": "Adodc1",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 504,
+     "Width": 209,
+     "Height": 193,
+     "Stretch": true
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label10",
+     "children": [],
+     "menus": [],
+     "Left": 632,
+     "Top": 520,
+     "Width": 145,
+     "Height": 41,
+     "Caption": "可別浪費食材!",
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 776,
+     "Top": 464,
+     "Width": 159,
+     "Height": 216,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form1__新增菜單_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label11",
+     "children": [],
+     "menus": [],
+     "Left": 560,
+     "Top": 272,
+     "Width": 96,
+     "Height": 31,
+     "Caption": "原料數量",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 376,
+     "Top": 168,
+     "Width": 108,
+     "Height": 35,
+     "Caption": "新增菜單",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label8",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 472,
+     "Width": 48,
+     "Height": 31,
+     "Caption": "價錢",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 608,
+     "Top": 408,
+     "Width": 48,
+     "Height": 31,
+     "Caption": "口味",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 408,
+     "Width": 42,
+     "Height": 26,
+     "Caption": "分類",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 608,
+     "Top": 344,
+     "Width": 48,
+     "Height": 31,
+     "Caption": "產地",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 344,
+     "Width": 42,
+     "Height": 26,
+     "Caption": "資訊",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 280,
+     "Width": 42,
+     "Height": 26,
+     "Caption": "原料",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 584,
+     "Top": 216,
+     "Width": 72,
+     "Height": 31,
+     "Caption": "卡路里",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 208,
+     "Width": 42,
+     "Height": 26,
+     "Caption": "菜名",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": -8,
+     "Width": 966,
+     "Height": 808,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form1__新增菜單_Image2_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "cooker",
+     "caption": "廚師",
+     "children": [
+      {
+       "name": "selectmeal",
+       "caption": "新增菜單(套餐)",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 952,
+   "ClientHeight": 787,
+   "ClientLeft": 181,
+   "ClientTop": 107,
+   "Caption": "新增菜單",
+   "isForm": true,
+   "vb_name": "新增菜單",
+   "slug": "新增菜單__新增菜單__Form1"
+  },
+  "新增菜單__新增菜單__Form2": {
+   "type": "VB.Form",
+   "name": "廚師登入",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 384,
+     "Top": 16,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command3",
+     "children": [],
+     "menus": [],
+     "Left": 256,
+     "Top": 240,
+     "Width": 97,
+     "Height": 49,
+     "Caption": "回主畫面",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 240,
+     "Width": 65,
+     "Height": 49,
+     "Caption": "登入",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 184,
+     "Width": 177,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 128,
+     "Width": 177,
+     "Height": 33,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 360,
+     "Top": 80,
+     "Width": 145,
+     "Height": 137,
+     "Caption": "歡迎光臨～",
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 72,
+     "Width": 143,
+     "Height": 272,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form2__廚師登入_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 184,
+     "Width": 81,
+     "Height": 35,
+     "Caption": "密碼：",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 128,
+     "Width": 81,
+     "Height": 35,
+     "Caption": "帳號：",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 80,
+     "Top": 32,
+     "Width": 320,
+     "Height": 81,
+     "Caption": "廚師登入",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 48.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": 0,
+     "Width": 630,
+     "Height": 400,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form2__廚師登入_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 620,
+   "ClientHeight": 396,
+   "ClientLeft": 290,
+   "ClientTop": 342,
+   "Caption": "廚師登入",
+   "Picture": "assets/img/frx/新增菜單__新增菜單__Form2__廚師登入_Picture.jpg",
+   "isForm": true,
+   "vb_name": "廚師登入",
+   "slug": "新增菜單__新增菜單__Form2"
+  },
+  "新增菜單__新增菜單__Form3": {
+   "type": "VB.Form",
+   "name": "新增菜單選擇",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 24,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 424,
+     "Width": 281,
+     "Height": 57,
+     "Caption": "製作套餐",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 21.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 56,
+     "Top": 424,
+     "Width": 273,
+     "Height": 57,
+     "Caption": "新增菜單",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 21.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 424,
+     "Top": 160,
+     "Width": 375,
+     "Height": 303,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 432,
+     "Top": 96,
+     "Width": 345,
+     "Height": 97,
+     "Caption": "我叫多多吃飯，我可以幫您製作套餐～",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 104,
+     "Width": 321,
+     "Height": 81,
+     "Caption": "我叫多吃飯，我可以幫您新增菜單～",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image4",
+     "children": [],
+     "menus": [],
+     "Left": 680,
+     "Top": 8,
+     "Width": 80,
+     "Height": 51,
+     "Visible": false,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image4_Picture.bmp"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 648,
+     "Top": 64,
+     "Width": 153,
+     "Height": 25,
+     "Caption": "有顧客意見反應",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 56,
+     "Top": 200,
+     "Width": 334,
+     "Height": 268,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": 0,
+     "Width": 798,
+     "Height": 592,
+     "Stretch": true,
+     "Picture": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "ddd",
+     "caption": "回主畫面",
+     "children": []
+    },
+    {
+     "name": "sss",
+     "caption": "顧客回覆",
+     "children": []
+    }
+   ],
+   "ClientWidth": 792,
+   "ClientHeight": 590,
+   "ClientLeft": 264,
+   "ClientTop": 231,
+   "Caption": "新增菜單選擇",
+   "isForm": true,
+   "vb_name": "新增菜單選擇",
+   "slug": "新增菜單__新增菜單__Form3"
+  },
+  "第一畫面__Form1": {
+   "type": "VB.Form",
+   "name": "第一個畫面",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer5",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 128,
+     "Interval": 1000.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer4",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 0,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer3",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 0,
+     "Interval": 500.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command3",
+     "children": [],
+     "menus": [],
+     "Left": 560,
+     "Top": 440,
+     "Width": 161,
+     "Height": 47,
+     "Caption": "管理者",
+     "Font": {
+      "family": "新細明體",
+      "size": 27.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer2",
+     "children": [],
+     "menus": [],
+     "Left": 48,
+     "Top": 0,
+     "Enabled": false,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Enabled": false,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 312,
+     "Top": 440,
+     "Width": 177,
+     "Height": 47,
+     "Caption": "廚師",
+     "Font": {
+      "family": "新細明體",
+      "size": 27.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 440,
+     "Width": 177,
+     "Height": 49,
+     "Caption": "消費者",
+     "Font": {
+      "family": "新細明體",
+      "size": 26.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 184,
+     "Top": 616,
+     "Width": 465,
+     "Height": 41,
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 568,
+     "Top": 512,
+     "Width": 257,
+     "Height": 137,
+     "Caption": "精準管控目前的存貨與進貨，並且讓系統自動管理過期原料，依照使用量增減存貨，且有效管理保存期限！\r\n",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 320,
+     "Top": 520,
+     "Width": 201,
+     "Height": 105,
+     "Caption": "依自己的專業製作菜單，設定食材的原產地，並可設定為客人推薦不同的推薦菜單。 ",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 520,
+     "Width": 241,
+     "Height": 73,
+     "Caption": "能夠選擇單點您想要的菜色製作最合適的套餐及美味的餐點!",
+     "Visible": false,
+     "Transparent": true,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image4",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 256,
+     "Width": 177,
+     "Height": 185,
+     "Stretch": true,
+     "Picture": "assets/img/frx/第一畫面__Form1__第一個畫面_Image4_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 320,
+     "Top": 248,
+     "Width": 167,
+     "Height": 192,
+     "Stretch": true,
+     "Picture": "assets/img/frx/第一畫面__Form1__第一個畫面_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 560,
+     "Top": 248,
+     "Width": 155,
+     "Height": 192,
+     "Stretch": true,
+     "Picture": "assets/img/frx/第一畫面__Form1__第一個畫面_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 24,
+     "Width": 721,
+     "Height": 49,
+     "Transparent": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": -89,
+     "Width": 945,
+     "Height": 784,
+     "Stretch": true,
+     "Picture": "assets/img/frx/第一畫面__Form1__第一個畫面_Image1_Picture.bmp"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 936,
+   "ClientHeight": 697,
+   "ClientLeft": 134,
+   "ClientTop": 121,
+   "Caption": "歡迎使用餐廳系統",
+   "BackColor": "#ffff00",
+   "ForeColor": "#ffff00",
+   "isForm": true,
+   "vb_name": "第一個畫面",
+   "slug": "第一畫面__Form1"
+  },
+  "管理者__Form2": {
+   "type": "VB.Form",
+   "name": "新增存貨",
+   "children": [
+    {
+     "type": "VB.Data",
+     "name": "Data1",
+     "children": [],
+     "menus": [],
+     "Left": 40,
+     "Top": 408,
+     "Width": 113,
+     "Height": 25,
+     "Caption": "Data1",
+     "Visible": false
+    },
+    {
+     "type": "MSDataGridLib.DataGrid",
+     "name": "DataGrid1",
+     "children": [],
+     "menus": [],
+     "Left": 264,
+     "Top": 512,
+     "Width": 209,
+     "Height": 65,
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc1",
+     "children": [],
+     "menus": [],
+     "Left": 232,
+     "Top": 8,
+     "Width": 129,
+     "Height": 22,
+     "Caption": "Adodc1",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame2",
+     "children": [
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 160,
+       "Top": 360,
+       "Width": 97,
+       "Height": 41,
+       "Caption": "新增",
+       "BackColor": "#e0e0e0",
+       "Font": {
+        "family": "微軟正黑體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.TextBox",
+       "name": "Text5",
+       "children": [],
+       "menus": [],
+       "Left": 136,
+       "Top": 264,
+       "Width": 153,
+       "Height": 33,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75
+       }
+      },
+      {
+       "type": "VB.TextBox",
+       "name": "Text3",
+       "children": [],
+       "menus": [],
+       "Left": 136,
+       "Top": 200,
+       "Width": 153,
+       "Height": 33,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75
+       }
+      },
+      {
+       "type": "VB.TextBox",
+       "name": "Text2",
+       "children": [],
+       "menus": [],
+       "Left": 136,
+       "Top": 128,
+       "Width": 153,
+       "Height": 33,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75
+       }
+      },
+      {
+       "type": "VB.TextBox",
+       "name": "Text1",
+       "children": [],
+       "menus": [],
+       "Left": 136,
+       "Top": 64,
+       "Width": 153,
+       "Height": 33,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label1",
+       "children": [],
+       "menus": [],
+       "Left": 152,
+       "Top": 320,
+       "Width": 153,
+       "Height": 17,
+       "Caption": "( yyyy / mm / dd )",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.75,
+        "italic": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label2",
+       "children": [],
+       "menus": [],
+       "Left": 56,
+       "Top": 72,
+       "Width": 65,
+       "Height": 25,
+       "Caption": "原料",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "微軟正黑體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label3",
+       "children": [],
+       "menus": [],
+       "Left": 56,
+       "Top": 128,
+       "Width": 73,
+       "Height": 33,
+       "Caption": "數量",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "微軟正黑體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label4",
+       "children": [],
+       "menus": [],
+       "Left": 56,
+       "Top": 200,
+       "Width": 65,
+       "Height": 33,
+       "Caption": "成本",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "微軟正黑體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label6",
+       "children": [],
+       "menus": [],
+       "Left": 24,
+       "Top": 264,
+       "Width": 105,
+       "Height": 33,
+       "Caption": "保存期限",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "微軟正黑體",
+        "size": 15.75,
+        "bold": true
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 128,
+     "Top": 72,
+     "Width": 441,
+     "Height": 449,
+     "Caption": "存貨",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "細明體",
+      "size": 24.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": -24,
+     "Width": 622,
+     "Height": 640,
+     "Stretch": true,
+     "Picture": "assets/img/frx/管理者__Form2__新增存貨_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "open",
+     "caption": "管理者",
+     "children": [
+      {
+       "name": "now",
+       "caption": "目前所有存貨",
+       "children": []
+      },
+      {
+       "name": "list",
+       "caption": "列出報表",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "play",
+     "caption": "遊戲",
+     "children": []
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 627,
+   "ClientHeight": 615,
+   "ClientLeft": 319,
+   "ClientTop": 249,
+   "Caption": "新增存貨",
+   "BackColor": "#e0e0e0",
+   "isForm": true,
+   "vb_name": "新增存貨",
+   "slug": "管理者__Form2"
+  },
+  "管理者帳號密碼__管理者帳號密碼__Form1": {
+   "type": "VB.Form",
+   "name": "管理者登入",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 80,
+     "Top": 56,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text3",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 264,
+     "Width": 185,
+     "Height": 41,
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 264,
+     "Top": 336,
+     "Width": 73,
+     "Height": 25,
+     "Caption": "更新驗證碼"
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 416,
+     "Top": 328,
+     "Width": 81,
+     "Height": 49,
+     "Caption": "登入",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 192,
+     "Width": 185,
+     "Height": 41,
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 136,
+     "Width": 185,
+     "Height": 41,
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 120,
+     "Top": 32,
+     "Width": 129,
+     "Height": 137,
+     "Caption": "歡迎光臨～",
+     "Visible": false,
+     "Transparent": true,
+     "BackColor": "#ffffff",
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 56,
+     "Top": 136,
+     "Width": 101,
+     "Height": 248,
+     "Stretch": true,
+     "Picture": "assets/img/frx/管理者帳號密碼__管理者帳號密碼__Form1__管理者登入_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 256,
+     "Top": 264,
+     "Width": 105,
+     "Height": 41,
+     "Caption": "驗證碼",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 304,
+     "Width": 65,
+     "Height": 33,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "italic": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 264,
+     "Top": 200,
+     "Width": 129,
+     "Height": 57,
+     "Caption": "密碼",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 264,
+     "Top": 136,
+     "Width": 73,
+     "Height": 33,
+     "Caption": "帳號",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 256,
+     "Top": 40,
+     "Width": 265,
+     "Height": 81,
+     "Caption": "進入管理者",
+     "BackColor": "#ffffff",
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "新細明體",
+      "size": 36.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Width": 606,
+     "Height": 456,
+     "Stretch": true,
+     "Picture": "assets/img/frx/管理者帳號密碼__管理者帳號密碼__Form1__管理者登入_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 604,
+   "ClientHeight": 459,
+   "ClientLeft": 329,
+   "ClientTop": 322,
+   "Caption": "管理者登入",
+   "BackColor": "#e0e0e0",
+   "isForm": true,
+   "vb_name": "管理者登入",
+   "slug": "管理者帳號密碼__管理者帳號密碼__Form1"
+  },
+  "自訂菜單程式碼__自訂菜單程式碼__Form2": {
+   "type": "VB.Form",
+   "name": "謝謝惠顧",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 232,
+     "Top": 256,
+     "Width": 105,
+     "Height": 41,
+     "Caption": "確定",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 152,
+     "Width": 465,
+     "Height": 49,
+     "Caption": "謝謝惠顧  期待您下次的光臨",
+     "Alignment": 0,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 26.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 8,
+     "Width": 566,
+     "Height": 400,
+     "Stretch": true,
+     "Picture": "assets/img/frx/自訂菜單程式碼__自訂菜單程式碼__Form2__謝謝惠顧_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 567,
+   "ClientHeight": 405,
+   "ClientLeft": 329,
+   "ClientTop": 348,
+   "Caption": "謝謝惠顧",
+   "isForm": true,
+   "vb_name": "謝謝惠顧",
+   "slug": "自訂菜單程式碼__自訂菜單程式碼__Form2"
+  },
+  "自訂菜單程式碼__自訂菜單程式碼__Form3": {
+   "type": "VB.Form",
+   "name": "結帳",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 264,
+     "Width": 209,
+     "Height": 33,
+     "Caption": "完成",
+     "Enabled": false
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "結帳",
+     "children": [],
+     "menus": [],
+     "Left": 40,
+     "Top": 264,
+     "Width": 209,
+     "Height": 33,
+     "Caption": "確定"
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 96,
+     "Width": 209,
+     "Height": 153,
+     "Text": "Text1"
+    },
+    {
+     "type": "VB.ListBox",
+     "name": "List1",
+     "children": [],
+     "menus": [],
+     "Left": 40,
+     "Top": 96,
+     "Width": 209,
+     "Height": 148
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 288,
+     "Top": 72,
+     "Width": 185,
+     "Height": 25,
+     "Caption": "發票",
+     "Alignment": 0,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 48,
+     "Top": 72,
+     "Width": 193,
+     "Height": 17,
+     "Caption": "所選菜色",
+     "Alignment": 0,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 24,
+     "Width": 233,
+     "Height": 25,
+     "Caption": "結帳",
+     "Alignment": 0,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 8,
+     "Width": 550,
+     "Height": 400,
+     "Stretch": true,
+     "Picture": "assets/img/frx/自訂菜單程式碼__自訂菜單程式碼__Form3__結帳_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 552,
+   "ClientHeight": 400,
+   "ClientLeft": 348,
+   "ClientTop": 335,
+   "Caption": "結帳",
+   "isForm": true,
+   "vb_name": "結帳",
+   "slug": "自訂菜單程式碼__自訂菜單程式碼__Form3"
+  },
+  "點我__KEEP__的KEEP__的KEEP__1-10": {
+   "type": "VB.Form",
+   "name": "Form4",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 112,
+     "Top": 56,
+     "Enabled": false,
+     "Interval": 500.0
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 312,
+   "ClientHeight": 213,
+   "ClientLeft": 4,
+   "ClientTop": 23,
+   "Caption": "Form4",
+   "isForm": true,
+   "vb_name": "Form4",
+   "slug": "點我__KEEP__的KEEP__的KEEP__1-10"
+  },
+  "點我__KEEP__的KEEP__的KEEP__Form3": {
+   "type": "VB.Form",
+   "name": "顧客系統選擇",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 8,
+     "Enabled": false,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 424,
+     "Top": 344,
+     "Width": 281,
+     "Height": 57,
+     "Caption": "系統自訂套餐",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 21.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 344,
+     "Width": 289,
+     "Height": 57,
+     "Caption": "系統自訂菜單",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 21.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 376,
+     "Top": 24,
+     "Width": 233,
+     "Height": 33,
+     "Caption": "想要申訴可以點我",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 384,
+     "Top": 80,
+     "Width": 313,
+     "Height": 65,
+     "Caption": "我叫四碗飯，我可以幫您自訂套餐～",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 40,
+     "Width": 305,
+     "Height": 97,
+     "Caption": "我叫大碗飯，我可以幫您自訂菜單～",
+     "Visible": false,
+     "Transparent": true,
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 624,
+     "Top": 64,
+     "Width": 97,
+     "Height": 25,
+     "Caption": "我要反應",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image4",
+     "children": [],
+     "menus": [],
+     "Left": 632,
+     "Top": 16,
+     "Width": 72,
+     "Height": 43,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image4_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 384,
+     "Top": 96,
+     "Width": 359,
+     "Height": 295,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 88,
+     "Width": 334,
+     "Height": 292,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Width": 750,
+     "Height": 520,
+     "Enabled": false,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "play",
+     "caption": "遊戲",
+     "children": [
+      {
+       "name": "cycle",
+       "caption": "圈圈叉叉",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    },
+    {
+     "name": "ss",
+     "caption": "其他",
+     "children": [
+      {
+       "name": "aaa",
+       "caption": "意見反應",
+       "children": []
+      }
+     ]
+    }
+   ],
+   "ClientWidth": 753,
+   "ClientHeight": 522,
+   "ClientLeft": 264,
+   "ClientTop": 231,
+   "Caption": "顧客系統選擇",
+   "isForm": true,
+   "vb_name": "顧客系統選擇",
+   "slug": "點我__KEEP__的KEEP__的KEEP__Form3"
+  },
+  "點我__KEEP__的KEEP__的KEEP__Form7": {
+   "type": "VB.Form",
+   "name": "訂單處理中",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 400,
+     "Top": 272,
+     "Interval": 100.0
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 192,
+     "Top": 256,
+     "Width": 97,
+     "Height": 41,
+     "Caption": "確定",
+     "Enabled": false,
+     "BackColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 176,
+     "Width": 209,
+     "Height": 57,
+     "Caption": "請稍候...",
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 36.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 56,
+     "Width": 356,
+     "Height": 117,
+     "Caption": "訂單處理中",
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000",
+     "Font": {
+      "family": "標楷體",
+      "size": 48.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Width": 494,
+     "Height": 400,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form7__訂單處理中_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 490,
+   "ClientHeight": 385,
+   "ClientLeft": 356,
+   "ClientTop": 320,
+   "Caption": "訂單處理中",
+   "isForm": true,
+   "vb_name": "訂單處理中",
+   "slug": "點我__KEEP__的KEEP__的KEEP__Form7"
+  },
+  "點我__KEEP__的KEEP__的KEEP__KEEP2": {
+   "type": "VB.Form",
+   "name": "目前所有存貨",
+   "children": [
+    {
+     "type": "VB.Timer",
+     "name": "Timer3",
+     "children": [],
+     "menus": [],
+     "Left": 626,
+     "Top": 24,
+     "Enabled": false,
+     "Interval": 1000.0
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame3",
+     "children": [
+      {
+       "type": "VB.CommandButton",
+       "name": "Command7",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 224,
+       "Width": 105,
+       "Height": 41,
+       "Caption": "新增存貨",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command4",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 416,
+       "Width": 105,
+       "Height": 41,
+       "Caption": "回主選單",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.TextBox",
+       "name": "Text1",
+       "children": [],
+       "menus": [],
+       "Left": 304,
+       "Top": 32,
+       "Width": 137,
+       "Height": 25,
+       "Text": "loading...",
+       "Alignment": 0,
+       "ForeColor": "#0000ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command6",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 264,
+       "Width": 105,
+       "Height": 33,
+       "Caption": "刪除存貨",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 8,
+       "Top": 184,
+       "Width": 521,
+       "Height": 298,
+       "BackColor": "#ffffff",
+       "ForeColor": "#000000",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List2",
+       "children": [],
+       "menus": [],
+       "Left": 16,
+       "Top": 188,
+       "Width": 15,
+       "Height": 25,
+       "Visible": false,
+       "ForeColor": "#808080",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 296,
+       "Width": 105,
+       "Height": 41,
+       "Caption": "日期排序",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Timer",
+       "name": "Timer2",
+       "children": [],
+       "menus": [],
+       "Left": 600,
+       "Top": 496,
+       "Enabled": false,
+       "Interval": 1.0
+      },
+      {
+       "type": "VB.Timer",
+       "name": "Timer1",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 464,
+       "Enabled": false,
+       "Interval": 50.0
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command3",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 336,
+       "Width": 105,
+       "Height": 41,
+       "Caption": "輸入查詢",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command2",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 184,
+       "Width": 105,
+       "Height": 41,
+       "Caption": "更新存貨",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ComboBox",
+       "name": "Combo1",
+       "children": [],
+       "menus": [],
+       "Left": 112,
+       "Top": 71,
+       "Width": 113,
+       "Height": 20,
+       "Text": "選字型..",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.ComboBox",
+       "name": "Combo2",
+       "children": [],
+       "menus": [],
+       "Left": 341,
+       "Top": 68,
+       "Width": 121,
+       "Height": 20,
+       "Text": "選顏色..",
+       "ForeColor": "#000000",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.ComboBox",
+       "name": "Combo3",
+       "children": [],
+       "menus": [],
+       "Left": 116,
+       "Top": 114,
+       "Width": 113,
+       "Height": 20,
+       "Text": "選月份..",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Check1",
+       "children": [],
+       "menus": [],
+       "Left": 256,
+       "Top": 112,
+       "Width": 65,
+       "Height": 25,
+       "Caption": "粗體",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Check2",
+       "children": [],
+       "menus": [],
+       "Left": 320,
+       "Top": 112,
+       "Width": 65,
+       "Height": 25,
+       "Caption": "斜體",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Check3",
+       "children": [],
+       "menus": [],
+       "Left": 384,
+       "Top": 112,
+       "Width": 57,
+       "Height": 25,
+       "Caption": "底線",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command5",
+       "children": [],
+       "menus": [],
+       "Left": 552,
+       "Top": 376,
+       "Width": 105,
+       "Height": 41,
+       "Caption": "剩餘天數",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label7",
+       "children": [],
+       "menus": [],
+       "Left": 248,
+       "Top": 32,
+       "Width": 57,
+       "Height": 25,
+       "Caption": "時間：",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label11",
+       "children": [],
+       "menus": [],
+       "Left": 240,
+       "Top": 144,
+       "Width": 145,
+       "Height": 25,
+       "BackColor": "#ffffff",
+       "ForeColor": "#ff0000",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label10",
+       "children": [],
+       "menus": [],
+       "Left": 168,
+       "Top": 152,
+       "Width": 305,
+       "Height": 17,
+       "Caption": "總計金額　　　　　　　　　　　　　　　元",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label9",
+       "children": [],
+       "menus": [],
+       "Left": 56,
+       "Top": 144,
+       "Width": 41,
+       "Height": 33,
+       "BackColor": "#ffffff",
+       "ForeColor": "#ff0000",
+       "Font": {
+        "family": "Times New Roman",
+        "size": 18.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label8",
+       "children": [],
+       "menus": [],
+       "Left": 32,
+       "Top": 152,
+       "Width": 185,
+       "Height": 33,
+       "Caption": "共                    筆資料",
+       "Transparent": true,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label3",
+       "children": [],
+       "menus": [],
+       "Left": 29,
+       "Top": 73,
+       "Width": 97,
+       "Height": 25,
+       "Caption": "字型大小：",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label5",
+       "children": [],
+       "menus": [],
+       "Left": 248,
+       "Top": 72,
+       "Width": 113,
+       "Height": 25,
+       "Caption": "字型顏色：",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label6",
+       "children": [],
+       "menus": [],
+       "Left": 31,
+       "Top": 109,
+       "Width": 81,
+       "Height": 25,
+       "Caption": "顯示月份：",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 288,
+     "Top": 104,
+     "Width": 713,
+     "Height": 545,
+     "Caption": "目前所有存貨",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 24.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data1",
+     "children": [],
+     "menus": [],
+     "Left": 256,
+     "Top": 936,
+     "Width": 81,
+     "Height": 41,
+     "Caption": "Data1",
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc1",
+     "children": [],
+     "menus": [],
+     "Left": 291,
+     "Top": 292,
+     "Width": 153,
+     "Height": 49,
+     "Caption": "Adodc1",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame2",
+     "children": [
+      {
+       "type": "VB.TextBox",
+       "name": "Text2",
+       "children": [],
+       "menus": [],
+       "Left": 8,
+       "Top": 45,
+       "Width": 257,
+       "Height": 513,
+       "MultiLine": true,
+       "Alignment": 0,
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 904,
+     "Top": 608,
+     "Width": 9,
+     "Height": 9,
+     "Caption": "過期存貨",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 24.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 456,
+     "Top": 40,
+     "Width": 393,
+     "Height": 81,
+     "Caption": "現有存貨",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 36.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label12",
+     "children": [],
+     "menus": [],
+     "Left": 64,
+     "Top": 256,
+     "Width": 201,
+     "Height": 89,
+     "Caption": "為了讓您使用方便，按鈕已做了簡化處理！",
+     "Transparent": true,
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 88,
+     "Top": 344,
+     "Width": 123,
+     "Height": 304,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 904,
+     "Top": 0,
+     "Width": 72,
+     "Height": 51,
+     "Visible": false,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image1_Picture.bmp"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 888,
+     "Top": 56,
+     "Width": 113,
+     "Height": 41,
+     "Caption": "您有信件！",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 48,
+     "Width": 329,
+     "Height": 73,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 21.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": -48,
+     "Top": 0,
+     "Width": 1257,
+     "Height": 753,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image2_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "open",
+     "caption": "管理者",
+     "children": [
+      {
+       "name": "add",
+       "caption": "新增存貨",
+       "children": []
+      },
+      {
+       "name": "list",
+       "caption": "列出報表",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    },
+    {
+     "name": "play",
+     "caption": "遊戲",
+     "children": []
+    }
+   ],
+   "ClientWidth": 1115,
+   "ClientHeight": 722,
+   "ClientLeft": 78,
+   "ClientTop": 159,
+   "Caption": "目前所有存貨",
+   "BackColor": "#e0e0e0",
+   "ForeColor": "#404040",
+   "Font": {
+    "family": "華康墨字體(P)",
+    "size": 9.0,
+    "bold": true
+   },
+   "isForm": true,
+   "vb_name": "目前所有存貨",
+   "slug": "點我__KEEP__的KEEP__的KEEP__KEEP2"
+  },
+  "點我__KEEP__的KEEP__的KEEP__KEEP3": {
+   "type": "VB.Form",
+   "name": "套餐選擇",
+   "children": [
+    {
+     "type": "VB.TextBox",
+     "name": "Text6",
+     "children": [],
+     "menus": [],
+     "Left": 672,
+     "Top": 160,
+     "Width": 33,
+     "Height": 25,
+     "Visible": false
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text5",
+     "children": [],
+     "menus": [],
+     "Left": 536,
+     "Top": 48,
+     "Width": 57,
+     "Height": 33,
+     "Enabled": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data3",
+     "children": [],
+     "menus": [],
+     "Left": 400,
+     "Top": 744,
+     "Width": 209,
+     "Height": 23,
+     "Caption": "Data3",
+     "Visible": false
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame1",
+     "children": [
+      {
+       "type": "VB.CommandButton",
+       "name": "Command8",
+       "children": [],
+       "menus": [],
+       "Left": 112,
+       "Top": 160,
+       "Width": 73,
+       "Height": 41,
+       "Caption": "重新選擇",
+       "Style": 0,
+       "BackColor": "#ffffff"
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command7",
+       "children": [],
+       "menus": [],
+       "Left": 24,
+       "Top": 160,
+       "Width": 73,
+       "Height": 41,
+       "Caption": "確定",
+       "Style": 0,
+       "BackColor": "#ffffff"
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label11",
+       "children": [],
+       "menus": [],
+       "Left": 24,
+       "Top": 104,
+       "Width": 161,
+       "Height": 33,
+       "Transparent": true,
+       "ForeColor": "#000000",
+       "Font": {
+        "family": "標楷體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label10",
+       "children": [],
+       "menus": [],
+       "Left": 24,
+       "Top": 40,
+       "Width": 193,
+       "Height": 33,
+       "Transparent": true,
+       "ForeColor": "#000000",
+       "Font": {
+        "family": "標楷體",
+        "size": 14.25
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 504,
+     "Top": 416,
+     "Width": 233,
+     "Height": 225,
+     "Caption": "您所選擇的套餐",
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data2",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 728,
+     "Width": 129,
+     "Height": 29,
+     "Caption": "Data2",
+     "Visible": false
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc2",
+     "children": [],
+     "menus": [],
+     "Left": 16,
+     "Top": 736,
+     "Width": 129,
+     "Height": 29,
+     "Caption": "Adodc2",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text4",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 448,
+     "Width": 161,
+     "Height": 161,
+     "MultiLine": true,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 728,
+     "Width": 127,
+     "Height": 29,
+     "Caption": "Data1",
+     "Visible": false
+    },
+    {
+     "type": "VB.ListBox",
+     "name": "List1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 176,
+     "Width": 217,
+     "Height": 220,
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 240,
+     "Top": 56,
+     "Width": 121,
+     "Height": 33,
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000"
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text3",
+     "children": [],
+     "menus": [],
+     "Left": 248,
+     "Top": 632,
+     "Width": 113,
+     "Height": 41,
+     "Enabled": false,
+     "Alignment": 0,
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 448,
+     "Width": 167,
+     "Height": 161,
+     "MultiLine": true,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "MSDataGridLib.DataGrid",
+     "name": "DataGrid1",
+     "children": [],
+     "menus": [],
+     "Left": 256,
+     "Top": 736,
+     "Width": 105,
+     "Height": 49,
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 720,
+     "Width": 129,
+     "Height": 29,
+     "Caption": "Adodc1",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command6",
+     "children": [],
+     "menus": [],
+     "Left": 624,
+     "Top": 648,
+     "Width": 73,
+     "Height": 41,
+     "Caption": "離開",
+     "Style": 0,
+     "BackColor": "#ffffff"
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command5",
+     "children": [],
+     "menus": [],
+     "Left": 528,
+     "Top": 648,
+     "Width": 73,
+     "Height": 41,
+     "Caption": "送出",
+     "Style": 0,
+     "BackColor": "#ffffff"
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command4",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 480,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "全部清除",
+     "Visible": false
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command3",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 456,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "移除",
+     "Visible": false,
+     "Enabled": false
+    },
+    {
+     "type": "VB.ListBox",
+     "name": "List2",
+     "children": [],
+     "menus": [],
+     "Left": 408,
+     "Top": 168,
+     "Width": 217,
+     "Height": 220,
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000",
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 432,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "新增",
+     "Visible": false,
+     "Enabled": false
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 368,
+     "Top": 56,
+     "Width": 49,
+     "Height": 33,
+     "Caption": "搜尋",
+     "Style": 0,
+     "BackColor": "#ffffff"
+    },
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo1",
+     "children": [],
+     "menus": [],
+     "Left": 240,
+     "Top": 96,
+     "Width": 177,
+     "Height": 20,
+     "Text": "請選擇分類",
+     "BackColor": "#ffffff",
+     "ForeColor": "#000000"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label13",
+     "children": [],
+     "menus": [],
+     "Left": 424,
+     "Top": 64,
+     "Width": 105,
+     "Height": 25,
+     "Caption": "您的人數：　",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image4",
+     "children": [],
+     "menus": [],
+     "Left": 664,
+     "Top": 24,
+     "Width": 72,
+     "Height": 43,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP3__套餐選擇_Image4_Picture.bmp"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label12",
+     "children": [],
+     "menus": [],
+     "Left": 656,
+     "Top": 72,
+     "Width": 97,
+     "Height": 25,
+     "Caption": "來信反應",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 416,
+     "Width": 129,
+     "Height": 25,
+     "Caption": "料理資訊",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 752,
+     "Top": 240,
+     "Width": 73,
+     "Height": 25,
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label8",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 632,
+     "Width": 153,
+     "Height": 41,
+     "Caption": "套餐價錢：",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 20.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 416,
+     "Width": 129,
+     "Height": 25,
+     "Caption": "套餐資訊",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 416,
+     "Top": 128,
+     "Width": 217,
+     "Height": 33,
+     "Caption": "套餐菜色",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 136,
+     "Width": 217,
+     "Height": 33,
+     "Caption": "套餐名",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 96,
+     "Width": 145,
+     "Height": 33,
+     "Caption": "選擇分類：",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 64,
+     "Width": 137,
+     "Height": 33,
+     "Caption": "套餐搜尋：",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 112,
+     "Top": 8,
+     "Width": 289,
+     "Height": 33,
+     "Caption": "套餐選擇系統",
+     "Transparent": true,
+     "Alignment": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 24.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 0,
+     "Width": 745,
+     "Height": 849,
+     "Enabled": false,
+     "Stretch": true,
+     "BorderStyle": 0,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP3__套餐選擇_Image1_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "coustomer",
+     "caption": "顧客",
+     "children": [
+      {
+       "name": "cc",
+       "caption": "消費者訂位",
+       "children": []
+      },
+      {
+       "name": "meal",
+       "caption": "菜單(單點)",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "play",
+     "caption": "遊戲",
+     "children": []
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 765,
+   "ClientHeight": 845,
+   "ClientLeft": 241,
+   "ClientTop": 79,
+   "Caption": "自訂套餐",
+   "isForm": true,
+   "vb_name": "套餐選擇",
+   "slug": "點我__KEEP__的KEEP__的KEEP__KEEP3"
+  },
+  "點我__KEEP__的KEEP__的KEEP__原料查詢": {
+   "type": "VB.Form",
+   "name": "原料查詢",
+   "children": [
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 40,
+     "Width": 489,
+     "Height": 361,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 24.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": 0,
+     "Width": 734,
+     "Height": 488,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__原料查詢__原料查詢_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 588,
+   "ClientHeight": 476,
+   "ClientLeft": 342,
+   "ClientTop": 302,
+   "Caption": "原料查詢",
+   "isForm": true,
+   "vb_name": "原料查詢",
+   "slug": "點我__KEEP__的KEEP__的KEEP__原料查詢"
+  },
+  "點我__KEEP__的KEEP__的KEEP__意見填寫欄": {
+   "type": "VB.Form",
+   "name": "意見填寫",
+   "children": [
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo1",
+     "children": [],
+     "menus": [],
+     "Left": 144,
+     "Top": 200,
+     "Width": 137,
+     "Height": 28,
+     "Text": "請選擇",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.OptionButton",
+     "name": "Option2",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 160,
+     "Width": 57,
+     "Height": 17,
+     "Caption": "女生",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.OptionButton",
+     "name": "Option1",
+     "children": [],
+     "menus": [],
+     "Left": 144,
+     "Top": 160,
+     "Width": 57,
+     "Height": 17,
+     "Caption": "男生",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 384,
+     "Width": 361,
+     "Height": 129,
+     "MultiLine": true,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command3",
+     "children": [],
+     "menus": [],
+     "Left": 200,
+     "Top": 528,
+     "Width": 105,
+     "Height": 41,
+     "Caption": "返回",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 326,
+     "Top": 528,
+     "Width": 105,
+     "Height": 41,
+     "Caption": "重新填寫",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 71,
+     "Top": 527,
+     "Width": 105,
+     "Height": 41,
+     "Caption": "送出",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 144,
+     "Top": 104,
+     "Width": 169,
+     "Height": 41,
+     "MultiLine": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 88,
+     "Top": 272,
+     "Width": 273,
+     "Height": 41,
+     "Caption": "您的意見是本餐廳進步的動力!",
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 360,
+     "Top": 96,
+     "Width": 191,
+     "Height": 264,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__意見填寫欄__意見填寫_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 200,
+     "Width": 57,
+     "Height": 33,
+     "Caption": "年齡",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 152,
+     "Width": 57,
+     "Height": 33,
+     "Caption": "性別",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 104,
+     "Width": 57,
+     "Height": 33,
+     "Caption": "姓名",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 352,
+     "Width": 241,
+     "Height": 17,
+     "Caption": "請輸入您對於本餐廳的意見：",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 24,
+     "Width": 241,
+     "Height": 49,
+     "Caption": "意見填寫表",
+     "Alignment": 0,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 26.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Width": 569,
+     "Height": 689,
+     "Enabled": false,
+     "Stretch": true,
+     "BorderStyle": 0,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__意見填寫欄__意見填寫_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 564,
+   "ClientHeight": 686,
+   "ClientLeft": 338,
+   "ClientTop": 193,
+   "Caption": "意見填寫",
+   "isForm": true,
+   "vb_name": "意見填寫",
+   "slug": "點我__KEEP__的KEEP__的KEEP__意見填寫欄"
+  },
+  "點我__KEEP__的KEEP__的KEEP__新增套餐": {
+   "type": "VB.Form",
+   "name": "新增套餐",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 680,
+     "Top": 632,
+     "Width": 97,
+     "Height": 41,
+     "Caption": "上一頁",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data2",
+     "children": [],
+     "menus": [],
+     "Left": 616,
+     "Top": 8,
+     "Width": 223,
+     "Height": 23,
+     "Caption": "Data2",
+     "Visible": false
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text3",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 624,
+     "Width": 257,
+     "Height": 65,
+     "Text": "",
+     "MultiLine": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 176,
+     "Top": 536,
+     "Width": 121,
+     "Height": 25,
+     "Text": "0",
+     "Enabled": false,
+     "Alignment": 0,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25
+     }
+    },
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo1",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 584,
+     "Width": 129,
+     "Height": 32,
+     "Text": "分類",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command3",
+     "children": [],
+     "menus": [],
+     "Left": 536,
+     "Top": 632,
+     "Width": 121,
+     "Height": 41,
+     "Caption": "刪除套餐",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data1",
+     "children": [],
+     "menus": [],
+     "Left": 363,
+     "Top": 0,
+     "Width": 220,
+     "Height": 23,
+     "Caption": "Data1",
+     "Visible": false
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 192,
+     "Top": 216,
+     "Width": 137,
+     "Height": 31,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 400,
+     "Top": 632,
+     "Width": 121,
+     "Height": 41,
+     "Caption": "匯出套餐",
+     "Enabled": false,
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "MSDataGridLib.DataGrid",
+     "name": "DataGrid2",
+     "children": [],
+     "menus": [],
+     "Left": 80,
+     "Top": 40,
+     "Width": 681,
+     "Height": 169,
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 12.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc2",
+     "children": [],
+     "menus": [],
+     "Left": 32,
+     "Top": 24,
+     "Width": 329,
+     "Height": 22,
+     "Caption": "Adodc2",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.ListBox",
+     "name": "List1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 288,
+     "Width": 281,
+     "Height": 234,
+     "Style": 0,
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc1",
+     "children": [],
+     "menus": [],
+     "Left": 32,
+     "Top": 0,
+     "Width": 329,
+     "Height": 22,
+     "Caption": "Adodc1",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label14",
+     "children": [],
+     "menus": [],
+     "Left": 720,
+     "Top": 392,
+     "Width": 217,
+     "Height": 73,
+     "Caption": "每道菜都得嚴加把關！",
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 768,
+     "Top": 416,
+     "Width": 135,
+     "Height": 208,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__新增套餐__新增套餐_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label13",
+     "children": [],
+     "menus": [],
+     "Left": 496,
+     "Top": 440,
+     "Width": 89,
+     "Height": 41,
+     "Caption": "資訊",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label12",
+     "children": [],
+     "menus": [],
+     "Left": 496,
+     "Top": 328,
+     "Width": 97,
+     "Height": 49,
+     "Caption": "數量",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label11",
+     "children": [],
+     "menus": [],
+     "Left": 496,
+     "Top": 216,
+     "Width": 81,
+     "Height": 41,
+     "Caption": "原料",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": 264,
+     "Width": 129,
+     "Height": 65
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label10",
+     "children": [],
+     "menus": [],
+     "Left": 360,
+     "Top": 528,
+     "Width": 33,
+     "Height": 33,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 320,
+     "Top": 536,
+     "Width": 97,
+     "Height": 33,
+     "Caption": "再選　　　　道菜",
+     "BackColor": "#ffffff"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label8",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 584,
+     "Width": 97,
+     "Height": 25,
+     "Caption": "套餐分類",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 536,
+     "Width": 73,
+     "Height": 25,
+     "Caption": "總價錢",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 592,
+     "Top": 440,
+     "Width": 177,
+     "Height": 97,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 584,
+     "Top": 328,
+     "Width": 193,
+     "Height": 81,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 584,
+     "Top": 216,
+     "Width": 225,
+     "Height": 89,
+     "BackColor": "#ffffff",
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 216,
+     "Width": 84,
+     "Height": 26,
+     "Caption": "套餐命名",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 256,
+     "Width": 72,
+     "Height": 31,
+     "Caption": "原價格",
+     "Transparent": true,
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 256,
+     "Width": 72,
+     "Height": 31,
+     "Caption": "原菜名",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": -24,
+     "Top": 0,
+     "Width": 969,
+     "Height": 785,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__新增套餐__新增套餐_Image2_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "cooker",
+     "caption": "廚師",
+     "children": [
+      {
+       "name": "select",
+       "caption": "新增菜單(套餐)",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 941,
+   "ClientHeight": 780,
+   "ClientLeft": 171,
+   "ClientTop": 122,
+   "Caption": "新增套餐",
+   "isForm": true,
+   "vb_name": "新增套餐",
+   "slug": "點我__KEEP__的KEEP__的KEEP__新增套餐"
+  },
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位": {
+   "type": "VB.Form",
+   "name": "消費者訂位",
+   "children": [
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 104,
+     "Width": 177,
+     "Height": 41,
+     "Text": "Text2"
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 888,
+     "Top": 592,
+     "Width": 97,
+     "Height": 41,
+     "Caption": "我不訂位"
+    },
+    {
+     "type": "ShockwaveFlashObjectsCtl.ShockwaveFlash",
+     "name": "ShockwaveFlash1",
+     "children": [],
+     "menus": [],
+     "Left": 120,
+     "Top": 0,
+     "Width": 337,
+     "Height": 97
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 888,
+     "Top": 536,
+     "Width": 97,
+     "Height": 49,
+     "Caption": "確定桌位"
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 576,
+     "Top": 8,
+     "Width": 321,
+     "Height": 81,
+     "Text": "",
+     "Enabled": false,
+     "MultiLine": true
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label23",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 112,
+     "Width": 97,
+     "Height": 33,
+     "Caption": "來店人數",
+     "Transparent": true
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label22",
+     "children": [],
+     "menus": [],
+     "Left": 768,
+     "Top": 120,
+     "Width": 193,
+     "Height": 57,
+     "Caption": "一定要找個好位子吃～",
+     "Transparent": true,
+     "ForeColor": "#0000ff"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image21",
+     "children": [],
+     "menus": [],
+     "Left": 576,
+     "Top": 88,
+     "Width": 177,
+     "Height": 153,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image21_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label21",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 144,
+     "Width": 337,
+     "Height": 73,
+     "Caption": "消費者訂位",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 48.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image20",
+     "children": [],
+     "menus": [],
+     "Left": 736,
+     "Top": 696,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image20_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image19",
+     "children": [],
+     "menus": [],
+     "Left": 600,
+     "Top": 696,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image19_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image18",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 688,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image18_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image17",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 688,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image17_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image16",
+     "children": [],
+     "menus": [],
+     "Left": 232,
+     "Top": 688,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image16_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image15",
+     "children": [],
+     "menus": [],
+     "Left": 672,
+     "Top": 552,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image15_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image14",
+     "children": [],
+     "menus": [],
+     "Left": 528,
+     "Top": 544,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image14_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image13",
+     "children": [],
+     "menus": [],
+     "Left": 408,
+     "Top": 544,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image13_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image12",
+     "children": [],
+     "menus": [],
+     "Left": 280,
+     "Top": 544,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image12_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image11",
+     "children": [],
+     "menus": [],
+     "Left": 152,
+     "Top": 536,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image11_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image10",
+     "children": [],
+     "menus": [],
+     "Left": 736,
+     "Top": 416,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image10_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image9",
+     "children": [],
+     "menus": [],
+     "Left": 600,
+     "Top": 408,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image9_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image8",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 408,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image8_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image7",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 408,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image7_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image6",
+     "children": [],
+     "menus": [],
+     "Left": 224,
+     "Top": 408,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image6_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image5",
+     "children": [],
+     "menus": [],
+     "Left": 680,
+     "Top": 264,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image5_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image4",
+     "children": [],
+     "menus": [],
+     "Left": 528,
+     "Top": 264,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image4_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 392,
+     "Top": 264,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image3_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 264,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image2_Picture.bmp"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label20",
+     "children": [],
+     "menus": [],
+     "Left": 736,
+     "Top": 664,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "4-5",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label19",
+     "children": [],
+     "menus": [],
+     "Left": 600,
+     "Top": 664,
+     "Width": 65,
+     "Height": 25,
+     "Caption": "4-4",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label18",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 664,
+     "Width": 65,
+     "Height": 25,
+     "Caption": "4-3",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label17",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 664,
+     "Width": 65,
+     "Height": 25,
+     "Caption": "4-2",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label16",
+     "children": [],
+     "menus": [],
+     "Left": 232,
+     "Top": 664,
+     "Width": 65,
+     "Height": 25,
+     "Caption": "4-1",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label15",
+     "children": [],
+     "menus": [],
+     "Left": 664,
+     "Top": 520,
+     "Width": 49,
+     "Height": 25,
+     "Caption": "3-5",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label14",
+     "children": [],
+     "menus": [],
+     "Left": 528,
+     "Top": 512,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "3-4",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label13",
+     "children": [],
+     "menus": [],
+     "Left": 392,
+     "Top": 512,
+     "Width": 65,
+     "Height": 25,
+     "Caption": "3-3",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label12",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 512,
+     "Width": 65,
+     "Height": 25,
+     "Caption": "3-2",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label11",
+     "children": [],
+     "menus": [],
+     "Left": 152,
+     "Top": 512,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "3-1",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label10",
+     "children": [],
+     "menus": [],
+     "Left": 744,
+     "Top": 376,
+     "Width": 65,
+     "Height": 33,
+     "Caption": "2-5",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 592,
+     "Top": 368,
+     "Width": 73,
+     "Height": 33,
+     "Caption": "2-4",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label8",
+     "children": [],
+     "menus": [],
+     "Left": 456,
+     "Top": 368,
+     "Width": 73,
+     "Height": 33,
+     "Caption": "2-3",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 344,
+     "Top": 368,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "2-2",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 368,
+     "Width": 73,
+     "Height": 33,
+     "Caption": "2-1",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 688,
+     "Top": 240,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "1-5",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 528,
+     "Top": 240,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "1-4",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 392,
+     "Top": 240,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "1-3",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 264,
+     "Top": 240,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "1-2",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 240,
+     "Width": 57,
+     "Height": 25,
+     "Caption": "1-1",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 136,
+     "Top": 264,
+     "Width": 75,
+     "Height": 74,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image1_Picture.bmp"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image22",
+     "children": [],
+     "menus": [],
+     "Left": -32,
+     "Top": 0,
+     "Width": 1046,
+     "Height": 872,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image22_Picture.gif"
+    }
+   ],
+   "menus": [
+    {
+     "name": "show",
+     "caption": "主選單",
+     "children": [
+      {
+       "name": "bb",
+       "caption": "系統選擇菜單",
+       "children": []
+      },
+      {
+       "name": "cc",
+       "caption": "套餐選擇",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "play",
+     "caption": "遊戲",
+     "children": [
+      {
+       "name": "dd",
+       "caption": "圈圈叉叉",
+       "children": []
+      }
+     ]
+    }
+   ],
+   "ClientWidth": 1015,
+   "ClientHeight": 862,
+   "ClientLeft": 134,
+   "ClientTop": 50,
+   "Caption": "消費者訂位",
+   "BackColor": "#ffffff",
+   "Font": {
+    "family": "微軟正黑體",
+    "size": 14.25,
+    "bold": true
+   },
+   "isForm": true,
+   "vb_name": "消費者訂位",
+   "slug": "點我__KEEP__的KEEP__的KEEP__消費者訂位"
+  },
+  "點我__KEEP__的KEEP__的KEEP__系統新增菜單": {
+   "type": "VB.Form",
+   "name": "系統選擇菜單",
+   "children": [
+    {
+     "type": "VB.TextBox",
+     "name": "Text5",
+     "children": [],
+     "menus": [],
+     "Left": 168,
+     "Top": 64,
+     "Width": 49,
+     "Height": 41,
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text4",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 64,
+     "Width": 57,
+     "Height": 39,
+     "Enabled": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer5",
+     "children": [],
+     "menus": [],
+     "Left": 524,
+     "Top": 7,
+     "Interval": 200.0
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame5",
+     "children": [
+      {
+       "type": "VB.CommandButton",
+       "name": "Command4",
+       "children": [],
+       "menus": [],
+       "Left": 408,
+       "Top": 232,
+       "Width": 126,
+       "Height": 59,
+       "Caption": "送出點餐",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 247,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 15.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 232,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 14.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 217,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 13.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 202,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 12.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 187,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 11.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 172,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 10.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 157,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 9.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 142,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 8.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 127,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 7.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 112,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 6.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 97,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 5.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 82,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 4.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 67,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 3.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 52,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 2.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.CommandButton",
+       "name": "Command1",
+       "children": [],
+       "menus": [],
+       "Left": 377,
+       "Top": 37,
+       "Width": 25,
+       "Height": 16,
+       "Caption": "X",
+       "Index": 1.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 12.0
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label8",
+       "children": [],
+       "menus": [],
+       "Left": 568,
+       "Top": 8,
+       "Width": 1,
+       "Height": 49,
+       "Caption": "Label8"
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label4",
+       "children": [],
+       "menus": [],
+       "Left": 8,
+       "Top": 272,
+       "Width": 393,
+       "Height": 21,
+       "BackColor": "#ffffff",
+       "ForeColor": "#ff0000",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label7",
+       "children": [],
+       "menus": [],
+       "Left": 296,
+       "Top": 24,
+       "Width": 105,
+       "Height": 255,
+       "Alignment": 0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 11.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label6",
+       "children": [],
+       "menus": [],
+       "Left": 176,
+       "Top": 24,
+       "Width": 121,
+       "Height": 253,
+       "Alignment": 0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 11.25,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Label",
+       "name": "Label5",
+       "children": [],
+       "menus": [],
+       "Left": 9,
+       "Top": 24,
+       "Width": 169,
+       "Height": 254,
+       "BackColor": "#ffffff",
+       "ForeColor": "#0000ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 11.25,
+        "bold": true
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 360,
+     "Top": 16,
+     "Width": 569,
+     "Height": 313,
+     "Caption": "點菜",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame4",
+     "children": [
+      {
+       "type": "VB.TextBox",
+       "name": "Text3",
+       "children": [],
+       "menus": [],
+       "Left": 920,
+       "Top": 280,
+       "Width": 313,
+       "Height": 153,
+       "Text": "",
+       "Visible": false,
+       "MultiLine": true,
+       "ForeColor": "#ff0000",
+       "Font": {
+        "family": "新細明體",
+        "size": 21.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 304,
+       "Top": 384,
+       "Width": 160,
+       "Height": 172,
+       "Index": 12.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 464,
+       "Top": 384,
+       "Width": 144,
+       "Height": 172,
+       "Index": 11.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 608,
+       "Top": 384,
+       "Width": 152,
+       "Height": 172,
+       "Index": 10.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 752,
+       "Top": 384,
+       "Width": 152,
+       "Height": 172,
+       "Visible": false,
+       "Index": 9.0,
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 704,
+       "Top": 216,
+       "Width": 200,
+       "Height": 151,
+       "Visible": false,
+       "Index": 8.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 272,
+       "Top": 216,
+       "Width": 208,
+       "Height": 151,
+       "Visible": false,
+       "Index": 7.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 48,
+       "Top": 216,
+       "Width": 216,
+       "Height": 151,
+       "Visible": false,
+       "Index": 6.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 704,
+       "Top": 32,
+       "Width": 200,
+       "Height": 172,
+       "Visible": false,
+       "Index": 5.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 488,
+       "Top": 216,
+       "Width": 208,
+       "Height": 151,
+       "Visible": false,
+       "Index": 4.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 488,
+       "Top": 32,
+       "Width": 208,
+       "Height": 172,
+       "Visible": false,
+       "Index": 3.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 272,
+       "Top": 32,
+       "Width": 208,
+       "Height": 172,
+       "Visible": false,
+       "Index": 2.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.ListBox",
+       "name": "List1",
+       "children": [],
+       "menus": [],
+       "Left": 48,
+       "Top": 32,
+       "Width": 216,
+       "Height": 172,
+       "Visible": false,
+       "Index": 1.0,
+       "ForeColor": "#ff00ff",
+       "Font": {
+        "family": "新細明體",
+        "size": 15.75,
+        "bold": true
+       }
+      },
+      {
+       "type": "VB.Image",
+       "name": "Image1",
+       "children": [],
+       "menus": [],
+       "Left": 920,
+       "Top": 16,
+       "Width": 313,
+       "Height": 249,
+       "Stretch": true
+      }
+     ],
+     "menus": [],
+     "Left": 8,
+     "Top": 320,
+     "Width": 1241,
+     "Height": 449,
+     "Caption": "菜單選擇",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo1",
+     "children": [],
+     "menus": [],
+     "Left": 288,
+     "Top": 96,
+     "Width": 41,
+     "Height": 20,
+     "Text": "Combo1",
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer4",
+     "children": [],
+     "menus": [],
+     "Left": 496,
+     "Top": 8,
+     "Enabled": false,
+     "Interval": 500.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer3",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 8,
+     "Enabled": false,
+     "Interval": 200.0
+    },
+    {
+     "type": "MSWinsockLib.Winsock",
+     "name": "Winsock1",
+     "children": [],
+     "menus": [],
+     "Left": 507,
+     "Top": 11
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data2",
+     "children": [],
+     "menus": [],
+     "Left": 697,
+     "Top": 394,
+     "Width": 76,
+     "Height": 27,
+     "Caption": "Data2",
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.ListBox",
+     "name": "List1",
+     "children": [],
+     "menus": [],
+     "Left": 32,
+     "Top": 584,
+     "Width": 56,
+     "Height": 16,
+     "Visible": false,
+     "Index": 13.0,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 56,
+     "Top": 648,
+     "Width": 12,
+     "Height": 18,
+     "Text": "Text2",
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command2",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 16,
+     "Width": 137,
+     "Height": 49,
+     "Caption": "重新輸入預算",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.ListBox",
+     "name": "List1",
+     "children": [],
+     "menus": [],
+     "Left": 584,
+     "Top": 408,
+     "Width": 112,
+     "Height": 136,
+     "Visible": false,
+     "Index": 0.0,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 296,
+     "Top": 40,
+     "Width": 25,
+     "Height": 7,
+     "Caption": "X",
+     "Visible": false,
+     "Index": 0.0,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer2",
+     "children": [],
+     "menus": [],
+     "Left": 464,
+     "Top": 16,
+     "Interval": 1000.0
+    },
+    {
+     "type": "VB.Timer",
+     "name": "Timer1",
+     "children": [],
+     "menus": [],
+     "Left": 488,
+     "Top": 16,
+     "Enabled": false,
+     "Interval": 200.0
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame2",
+     "children": [
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 0,
+       "Top": 152,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check13",
+       "Index": 12.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 64,
+       "Top": 168,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check14",
+       "Index": 13.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 176,
+       "Top": 168,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check15",
+       "Index": 14.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 176,
+       "Top": 152,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check16",
+       "Index": 15.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 216,
+       "Top": 152,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check17",
+       "Index": 16.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 272,
+       "Top": 152,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check18",
+       "Index": 17.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 264,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check24",
+       "Index": 23.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 216,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check23",
+       "Index": 22.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 168,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check22",
+       "Index": 21.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 112,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check21",
+       "Index": 20.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 57,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check20",
+       "Index": 19.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 8,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check19",
+       "Index": 18.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 280,
+       "Top": 160,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check12",
+       "Index": 11.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 208,
+       "Top": 152,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check11",
+       "Index": 10.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 184,
+       "Top": 168,
+       "Width": 47,
+       "Height": 41,
+       "Caption": "Check10",
+       "Index": 9.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 14.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 200,
+       "Top": 80,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check9",
+       "Index": 8.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 136,
+       "Top": 80,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check8",
+       "Index": 7.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 72,
+       "Top": 80,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check7",
+       "Index": 6.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 8,
+       "Top": 80,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check6",
+       "Index": 5.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 256,
+       "Top": 16,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check5",
+       "Index": 4.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 200,
+       "Top": 16,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check4",
+       "Index": 3.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 136,
+       "Top": 16,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check3",
+       "Index": 2.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 72,
+       "Top": 16,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "Check2",
+       "Index": 1.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      },
+      {
+       "type": "VB.CheckBox",
+       "name": "Labelcheck",
+       "children": [],
+       "menus": [],
+       "Left": 8,
+       "Top": 16,
+       "Width": 55,
+       "Height": 49,
+       "Caption": "全",
+       "Index": 0.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 20.25
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 16,
+     "Top": 96,
+     "Width": 329,
+     "Height": 213,
+     "Caption": "口味",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame3",
+     "children": [
+      {
+       "type": "VB.OptionButton",
+       "name": "Option4",
+       "children": [],
+       "menus": [],
+       "Left": 44,
+       "Top": 24,
+       "Width": 33,
+       "Height": 15,
+       "Caption": "否",
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      },
+      {
+       "type": "VB.OptionButton",
+       "name": "Option3",
+       "children": [],
+       "menus": [],
+       "Left": 4,
+       "Top": 23,
+       "Width": 29,
+       "Height": 20,
+       "Caption": "是",
+       "Index": 1.0,
+       "BackColor": "#ffffff",
+       "Font": {
+        "family": "新細明體",
+        "size": 9.0
+       }
+      }
+     ],
+     "menus": [],
+     "Left": 304,
+     "Top": -40,
+     "Width": 109,
+     "Height": 41,
+     "Caption": "是否搭配冰品",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Frame",
+     "name": "Frame1",
+     "children": [
+      {
+       "type": "VB.OptionButton",
+       "name": "Option2",
+       "children": [],
+       "menus": [],
+       "Left": 72,
+       "Top": 25,
+       "Width": 41,
+       "Height": 16,
+       "Caption": "否",
+       "Index": 1.0,
+       "BackColor": "#ffffff"
+      },
+      {
+       "type": "VB.OptionButton",
+       "name": "Option1",
+       "children": [],
+       "menus": [],
+       "Left": 16,
+       "Top": 24,
+       "Width": 41,
+       "Height": 17,
+       "Caption": "是",
+       "Index": 0.0,
+       "BackColor": "#ffffff"
+      }
+     ],
+     "menus": [],
+     "Left": 304,
+     "Top": -48,
+     "Width": 121,
+     "Height": 49,
+     "Caption": "是否搭配飲料",
+     "BackColor": "#ffffff",
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 104,
+     "Top": 16,
+     "Width": 105,
+     "Height": 41,
+     "Text": "0",
+     "Enabled": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Data",
+     "name": "Data1",
+     "children": [],
+     "menus": [],
+     "Left": 24,
+     "Top": 392,
+     "Width": 113,
+     "Height": 49,
+     "Caption": "Data1",
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "MSAdodcLib.Adodc",
+     "name": "Adodc1",
+     "children": [],
+     "menus": [],
+     "Left": 8,
+     "Top": 328,
+     "Width": 105,
+     "Height": 33,
+     "Caption": "Adodc1",
+     "Visible": false,
+     "Enabled": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "MSDataGridLib.DataGrid",
+     "name": "DataGrid1",
+     "children": [],
+     "menus": [],
+     "Left": 8,
+     "Top": 361,
+     "Width": 153,
+     "Height": 41,
+     "Visible": false,
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label10",
+     "children": [],
+     "menus": [],
+     "Left": 16,
+     "Top": 64,
+     "Width": 65,
+     "Height": 33,
+     "Caption": "人數",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 936,
+     "Top": 16,
+     "Width": 241,
+     "Height": 49,
+     "Caption": "該吃什麼好呢?",
+     "Transparent": true,
+     "ForeColor": "#0000ff",
+     "Font": {
+      "family": "新細明體",
+      "size": 21.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image3",
+     "children": [],
+     "menus": [],
+     "Left": 936,
+     "Top": 64,
+     "Width": 201,
+     "Height": 233,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__系統新增菜單__系統選擇菜單_Image3_Picture.jpg"
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image4",
+     "children": [],
+     "menus": [],
+     "Left": 1152,
+     "Top": 48,
+     "Width": 72,
+     "Height": 43,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__系統新增菜單__系統選擇菜單_Image4_Picture.bmp"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 1144,
+     "Top": 96,
+     "Width": 97,
+     "Height": 25,
+     "Caption": "來信反應",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 112,
+     "Top": 608,
+     "Width": 97,
+     "Height": 49
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 304,
+     "Top": 72,
+     "Width": 49,
+     "Height": 57,
+     "Caption": "Label3",
+     "Visible": false,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 9.0
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 16,
+     "Top": 24,
+     "Width": 81,
+     "Height": 25,
+     "Caption": "預算",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 18.0,
+      "bold": true
+     }
+    }
+   ],
+   "menus": [
+    {
+     "name": "costumer",
+     "caption": "顧客",
+     "children": [
+      {
+       "name": "aaa",
+       "caption": "消費者訂位",
+       "children": []
+      },
+      {
+       "name": "sss",
+       "caption": "顧客訂單",
+       "children": []
+      },
+      {
+       "name": "ddd",
+       "caption": "意見反應",
+       "children": []
+      },
+      {
+       "name": "meal",
+       "caption": "選擇套餐",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "play",
+     "caption": "遊戲",
+     "children": [
+      {
+       "name": "cycle",
+       "caption": "圈圈叉叉",
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "goback",
+     "caption": "回主選單",
+     "children": []
+    }
+   ],
+   "ClientWidth": 1255,
+   "ClientHeight": 780,
+   "ClientLeft": 23,
+   "ClientTop": 104,
+   "Caption": "系統選擇菜單(非套餐)",
+   "BackColor": "#ffffff",
+   "Font": {
+    "family": "新細明體",
+    "size": 12.0,
+    "bold": true
+   },
+   "isForm": true,
+   "vb_name": "系統選擇菜單",
+   "slug": "點我__KEEP__的KEEP__的KEEP__系統新增菜單"
+  },
+  "點我__KEEP__的KEEP__的KEEP__訂單顯示": {
+   "type": "VB.Form",
+   "name": "訂單顯示",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 472,
+     "Top": 672,
+     "Width": 121,
+     "Height": 33,
+     "Caption": "知道了",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 384,
+     "Width": 265,
+     "Height": 337,
+     "Transparent": true,
+     "Font": {
+      "family": "新細明體",
+      "size": 11.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 56,
+     "Top": 416,
+     "Width": 123,
+     "Height": 272,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__訂單顯示__訂單顯示_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 56,
+     "Top": 360,
+     "Width": 121,
+     "Height": 49,
+     "Caption": "有得忙了～",
+     "Transparent": true,
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 240,
+     "Width": 265,
+     "Height": 41,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 296,
+     "Width": 265,
+     "Height": 81,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 176,
+     "Width": 265,
+     "Height": 49,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 112,
+     "Width": 265,
+     "Height": 41,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 48,
+     "Width": 265,
+     "Height": 41,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": -24,
+     "Width": 654,
+     "Height": 824,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__訂單顯示__訂單顯示_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 642,
+   "ClientHeight": 823,
+   "ClientLeft": 341,
+   "ClientTop": 64,
+   "Caption": "訂單顯示",
+   "isForm": true,
+   "vb_name": "訂單顯示",
+   "slug": "點我__KEEP__的KEEP__的KEEP__訂單顯示"
+  },
+  "點我__KEEP__的KEEP__的KEEP__過期存貨": {
+   "type": "VB.Form",
+   "name": "過期存貨",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 624,
+     "Top": 552,
+     "Width": 153,
+     "Height": 57,
+     "Caption": "返回銷毀存貨",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 88,
+     "Top": 312,
+     "Width": 161,
+     "Height": 57,
+     "Caption": "可得嚴加管理！",
+     "Transparent": true,
+     "ForeColor": "#00ff00",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 352,
+     "Width": 115,
+     "Height": 280,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__過期存貨__過期存貨_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 216,
+     "Top": 0,
+     "Width": 793,
+     "Height": 633,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 15.75,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": 0,
+     "Top": 0,
+     "Width": 974,
+     "Height": 720,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__過期存貨__過期存貨_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 971,
+   "ClientHeight": 721,
+   "ClientLeft": 4,
+   "ClientTop": 30,
+   "Caption": "過期存貨",
+   "isForm": true,
+   "vb_name": "過期存貨",
+   "slug": "點我__KEEP__的KEEP__的KEEP__過期存貨"
+  },
+  "點我__KEEP__的KEEP__的KEEP__顧客意見顯示": {
+   "type": "VB.Form",
+   "name": "顧客意見顯示",
+   "children": [
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 336,
+     "Top": 424,
+     "Width": 113,
+     "Height": 41,
+     "Caption": "知道了",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 229,
+     "Top": 248,
+     "Width": 181,
+     "Height": 57,
+     "Caption": "顧客永遠是對的！",
+     "Transparent": true,
+     "ForeColor": "#ff0000",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image2",
+     "children": [],
+     "menus": [],
+     "Left": 360,
+     "Top": 208,
+     "Width": 167,
+     "Height": 200,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__顧客意見顯示__顧客意見顯示_Image2_Picture.jpg"
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 264,
+     "Width": 257,
+     "Height": 121,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 176,
+     "Width": 177,
+     "Height": 65,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 104,
+     "Width": 169,
+     "Height": 49,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 96,
+     "Top": 48,
+     "Width": 169,
+     "Height": 41,
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "新細明體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -16,
+     "Top": 0,
+     "Width": 550,
+     "Height": 528,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__顧客意見顯示__顧客意見顯示_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 533,
+   "ClientHeight": 529,
+   "ClientLeft": 338,
+   "ClientTop": 265,
+   "Caption": "顧客意見顯示",
+   "isForm": true,
+   "vb_name": "顧客意見顯示",
+   "slug": "點我__KEEP__的KEEP__的KEEP__顧客意見顯示"
+  },
+  "點我__KEEP__的KEEP__的KEEP__顧客訂單": {
+   "type": "VB.Form",
+   "name": "顧客訂單",
+   "children": [
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo4",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 272,
+     "Width": 89,
+     "Height": 25,
+     "Text": "請選擇"
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text4",
+     "children": [],
+     "menus": [],
+     "Left": 272,
+     "Top": 272,
+     "Width": 57,
+     "Height": 25
+    },
+    {
+     "type": "VB.CommandButton",
+     "name": "Command1",
+     "children": [],
+     "menus": [],
+     "Left": 192,
+     "Top": 520,
+     "Width": 137,
+     "Height": 41,
+     "Caption": "填寫完畢",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo3",
+     "children": [],
+     "menus": [],
+     "Left": 376,
+     "Top": 224,
+     "Width": 65,
+     "Height": 25,
+     "Text": "請選擇"
+    },
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo2",
+     "children": [],
+     "menus": [],
+     "Left": 280,
+     "Top": 224,
+     "Width": 65,
+     "Height": 25,
+     "Text": "請選擇"
+    },
+    {
+     "type": "VB.ComboBox",
+     "name": "Combo1",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 224,
+     "Width": 89,
+     "Height": 25,
+     "Text": "請選擇"
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text3",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 168,
+     "Width": 145,
+     "Height": 31
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text2",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 120,
+     "Width": 113,
+     "Height": 32
+    },
+    {
+     "type": "VB.TextBox",
+     "name": "Text1",
+     "children": [],
+     "menus": [],
+     "Left": 160,
+     "Top": 304,
+     "Width": 193,
+     "Height": 201,
+     "Enabled": false,
+     "MultiLine": true,
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 11.25
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label9",
+     "children": [],
+     "menus": [],
+     "Left": 344,
+     "Top": 272,
+     "Width": 33,
+     "Height": 25,
+     "Caption": "點",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label8",
+     "children": [],
+     "menus": [],
+     "Left": 448,
+     "Top": 224,
+     "Width": 33,
+     "Height": 25,
+     "Caption": "日",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label7",
+     "children": [],
+     "menus": [],
+     "Left": 352,
+     "Top": 224,
+     "Width": 49,
+     "Height": 25,
+     "Caption": "月",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label6",
+     "children": [],
+     "menus": [],
+     "Left": 256,
+     "Top": 224,
+     "Width": 33,
+     "Height": 25,
+     "Caption": "年",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label5",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 304,
+     "Width": 89,
+     "Height": 33,
+     "Caption": "預訂桌號",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label4",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 224,
+     "Width": 97,
+     "Height": 33,
+     "Caption": "預約時間",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label3",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 168,
+     "Width": 97,
+     "Height": 33,
+     "Caption": "電話",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label2",
+     "children": [],
+     "menus": [],
+     "Left": 72,
+     "Top": 120,
+     "Width": 105,
+     "Height": 33,
+     "Caption": "姓名",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 14.25,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Label",
+     "name": "Label1",
+     "children": [],
+     "menus": [],
+     "Left": 120,
+     "Top": 40,
+     "Width": 225,
+     "Height": 57,
+     "Caption": "顧客訂單",
+     "BackColor": "#ffffff",
+     "Font": {
+      "family": "微軟正黑體",
+      "size": 36.0,
+      "bold": true
+     }
+    },
+    {
+     "type": "VB.Image",
+     "name": "Image1",
+     "children": [],
+     "menus": [],
+     "Left": -8,
+     "Top": 0,
+     "Width": 598,
+     "Height": 664,
+     "Stretch": true,
+     "Picture": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__顧客訂單__顧客訂單_Image1_Picture.gif"
+    }
+   ],
+   "menus": [],
+   "ClientWidth": 529,
+   "ClientHeight": 665,
+   "ClientLeft": 338,
+   "ClientTop": 175,
+   "Caption": "顧客訂單",
+   "Font": {
+    "family": "微軟正黑體",
+    "size": 9.75
+   },
+   "isForm": true,
+   "vb_name": "顧客訂單",
+   "slug": "點我__KEEP__的KEEP__的KEEP__顧客訂單"
+  }
+ },
+ "img_map": {
+  "井字遊戲__Form1__Form1_Image1_Picture.gif": "assets/img/frx/井字遊戲__Form1__Form1_Image1_Picture.gif",
+  "新增菜單__新增菜單__Form1__新增菜單_Image2_Picture.gif": "assets/img/frx/新增菜單__新增菜單__Form1__新增菜單_Image2_Picture.gif",
+  "新增菜單__新增菜單__Form1__新增菜單_Image3_Picture.jpg": "assets/img/frx/新增菜單__新增菜單__Form1__新增菜單_Image3_Picture.jpg",
+  "新增菜單__新增菜單__Form2__廚師登入_Image1_Picture.gif": "assets/img/frx/新增菜單__新增菜單__Form2__廚師登入_Image1_Picture.gif",
+  "新增菜單__新增菜單__Form2__廚師登入_Image2_Picture.jpg": "assets/img/frx/新增菜單__新增菜單__Form2__廚師登入_Image2_Picture.jpg",
+  "新增菜單__新增菜單__Form2__廚師登入_Picture.jpg": "assets/img/frx/新增菜單__新增菜單__Form2__廚師登入_Picture.jpg",
+  "新增菜單__新增菜單__Form3__新增菜單選擇_Image1_Picture.gif": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image1_Picture.gif",
+  "新增菜單__新增菜單__Form3__新增菜單選擇_Image2_Picture.jpg": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image2_Picture.jpg",
+  "新增菜單__新增菜單__Form3__新增菜單選擇_Image3_Picture.jpg": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image3_Picture.jpg",
+  "新增菜單__新增菜單__Form3__新增菜單選擇_Image4_Picture.bmp": "assets/img/frx/新增菜單__新增菜單__Form3__新增菜單選擇_Image4_Picture.bmp",
+  "第一畫面__Form1__第一個畫面_Image1_Picture.bmp": "assets/img/frx/第一畫面__Form1__第一個畫面_Image1_Picture.bmp",
+  "第一畫面__Form1__第一個畫面_Image2_Picture.jpg": "assets/img/frx/第一畫面__Form1__第一個畫面_Image2_Picture.jpg",
+  "第一畫面__Form1__第一個畫面_Image3_Picture.jpg": "assets/img/frx/第一畫面__Form1__第一個畫面_Image3_Picture.jpg",
+  "第一畫面__Form1__第一個畫面_Image4_Picture.jpg": "assets/img/frx/第一畫面__Form1__第一個畫面_Image4_Picture.jpg",
+  "管理者__Form2__新增存貨_Image1_Picture.gif": "assets/img/frx/管理者__Form2__新增存貨_Image1_Picture.gif",
+  "管理者帳號密碼__管理者帳號密碼__Form1__管理者登入_Image1_Picture.gif": "assets/img/frx/管理者帳號密碼__管理者帳號密碼__Form1__管理者登入_Image1_Picture.gif",
+  "管理者帳號密碼__管理者帳號密碼__Form1__管理者登入_Image2_Picture.jpg": "assets/img/frx/管理者帳號密碼__管理者帳號密碼__Form1__管理者登入_Image2_Picture.jpg",
+  "自訂菜單程式碼__自訂菜單程式碼__Form2__謝謝惠顧_Image1_Picture.gif": "assets/img/frx/自訂菜單程式碼__自訂菜單程式碼__Form2__謝謝惠顧_Image1_Picture.gif",
+  "自訂菜單程式碼__自訂菜單程式碼__Form3__結帳_Image1_Picture.gif": "assets/img/frx/自訂菜單程式碼__自訂菜單程式碼__Form3__結帳_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image2_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image2_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image3_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image3_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image4_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form3__顧客系統選擇_Image4_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__Form7__訂單處理中_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__Form7__訂單處理中_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image1_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image1_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image2_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image2_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image3_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP2__目前所有存貨_Image3_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__KEEP3__套餐選擇_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP3__套餐選擇_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__KEEP3__套餐選擇_Image4_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__KEEP3__套餐選擇_Image4_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__原料查詢__原料查詢_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__原料查詢__原料查詢_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__意見填寫欄__意見填寫_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__意見填寫欄__意見填寫_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__意見填寫欄__意見填寫_Image2_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__意見填寫欄__意見填寫_Image2_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__新增套餐__新增套餐_Image2_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__新增套餐__新增套餐_Image2_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__新增套餐__新增套餐_Image3_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__新增套餐__新增套餐_Image3_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image10_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image10_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image11_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image11_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image12_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image12_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image13_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image13_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image14_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image14_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image15_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image15_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image16_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image16_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image17_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image17_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image18_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image18_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image19_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image19_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image1_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image1_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image20_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image20_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image21_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image21_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image22_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image22_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image2_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image2_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image3_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image3_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image4_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image4_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image5_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image5_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image6_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image6_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image7_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image7_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image8_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image8_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image9_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Image9_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Text1_Text.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__消費者訂位__消費者訂位_Text1_Text.jpg",
+  "點我__KEEP__的KEEP__的KEEP__系統新增菜單__系統選擇菜單_Image3_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__系統新增菜單__系統選擇菜單_Image3_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__系統新增菜單__系統選擇菜單_Image4_Picture.bmp": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__系統新增菜單__系統選擇菜單_Image4_Picture.bmp",
+  "點我__KEEP__的KEEP__的KEEP__訂單顯示__訂單顯示_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__訂單顯示__訂單顯示_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__訂單顯示__訂單顯示_Image2_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__訂單顯示__訂單顯示_Image2_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__過期存貨__過期存貨_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__過期存貨__過期存貨_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__過期存貨__過期存貨_Image2_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__過期存貨__過期存貨_Image2_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__顧客意見顯示__顧客意見顯示_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__顧客意見顯示__顧客意見顯示_Image1_Picture.gif",
+  "點我__KEEP__的KEEP__的KEEP__顧客意見顯示__顧客意見顯示_Image2_Picture.jpg": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__顧客意見顯示__顧客意見顯示_Image2_Picture.jpg",
+  "點我__KEEP__的KEEP__的KEEP__顧客訂單__顧客訂單_Image1_Picture.gif": "assets/img/frx/點我__KEEP__的KEEP__的KEEP__顧客訂單__顧客訂單_Image1_Picture.gif"
+ }
+}
